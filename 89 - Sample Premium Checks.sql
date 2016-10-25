@@ -2,6 +2,7 @@
 PREMIUM CHECKS
 \**************************************************************************/
 -- State, Market
+--Test from darren
 SELECT A.*, B.MMBs, B.PMPBM
 FROM
 (
