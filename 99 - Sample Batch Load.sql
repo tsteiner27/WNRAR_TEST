@@ -8,6 +8,8 @@ Description:	Load Outsum submission for BCBSTN
 Author:			Erol 05/19/2016
 Checker:		*** MATT TO CHECK ***
 \**************************************************************************/
+---UPDATE
+---TYLER: 10/28/2016
 GO
 	DECLARE  @LastYearRun VARCHAR (50),@Year VARCHAR(10), @PremiumLoad VARCHAR(6), @NumGRP2 VARCHAR(6), @OutSumRows VARCHAR(50), @99_PremRcvdDATE VARCHAR(6), @PremRows VARCHAR(50), @NOTE VARCHAR(200), @DemoFileName VARCHAR(50), @APTC VARCHAR(50), @Claim_Filter VARCHAR(50), @IssuerName VARCHAR(50), @PremVersion VARCHAR(50), @RcvdDate VARCHAR(50), @Version VARCHAR(50), @FileName VARCHAR(50), @CheckingVersion VARCHAR(50), @PRVersion VARCHAR(50), @CurrentRun VARCHAR(50), @PriorRun VARCHAR(50), @RunScenario VARCHAR(50), @cmd VARCHAR(8000), @Checkingfile_Version VARCHAR(50), @RunVersion VARCHAR(8), @XMLScenario VARCHAR(8), @RATEEVersion VARCHAR(8), @XML_ELIG_VRSN VARCHAR(8), @XML_DX_VRSN VARCHAR(8), @RATEE_SUMMARY VARCHAR(8)
 	SET @RunVersion		= '607'		-- Declares the run. || 512R || 604 || Both
